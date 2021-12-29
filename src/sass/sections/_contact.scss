@@ -18,6 +18,13 @@
     -webkit-clip-path: none;
   }
 
+  .contact-link {
+    font: inherit;
+    text-decoration: underline;
+    color: white;
+    font-size: 16px;
+    word-break: keep-all;
+  }
   .contact-wrapper {
     margin-top: 3.2rem;
     padding: 0 2rem;
@@ -27,8 +34,7 @@
       margin-bottom: 2.5rem;
     }
 
-    &__text,
-    a {
+    &__text{
       font-size: 2.4rem;
 
       @include respond(phone) {
