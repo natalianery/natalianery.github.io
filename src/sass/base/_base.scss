@@ -4,13 +4,16 @@ html {
   &.sr .load-hidden {
     visibility: hidden;
   }
+  
 }
 
 .slick-slide {
   max-height: 300px;
+  padding-left: 1px;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
   text-align: center;
+  background-image: url("https://w7.pngwing.com/pngs/801/240/png-transparent-leaf-euclidean-illustration-icon-environment-free-miscellaneous-maple-leaf-logo.png");
 }
