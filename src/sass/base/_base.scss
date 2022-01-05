@@ -10,3 +10,15 @@ body {
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
+
+.carousel {
+  max-height:350px;
+}
+
+.carousel img {
+  height: 350px;
+}
+
+.warning-text {
+  color: var(--bs-orange);
+}
