@@ -12,6 +12,11 @@ li {
   font-size: 14px;
 }
 
+ul {
+  font-family: "Montserrat", sans-serif;
+  font-size: $default-font-size;
+}
+
 a,
 a:link,
 a:hover,
@@ -22,6 +27,12 @@ a:active {
 
 a:hover {
   transition: all 0.3s ease-in-out;
+}
+
+.contact-link {
+  text-decoration: underline;
+  color: white;
+  font-size: $default-font-size;
 }
 
 .section-title {

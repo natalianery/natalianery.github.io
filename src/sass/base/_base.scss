@@ -17,3 +17,15 @@ body {
   text-align: center;
   background-image: url("https://w7.pngwing.com/pngs/801/240/png-transparent-leaf-euclidean-illustration-icon-environment-free-miscellaneous-maple-leaf-logo.png");
 }
+
+.carousel {
+  max-height:350px;
+}
+
+.carousel img {
+  height: 350px;
+}
+
+.warning-text {
+  color: var(--bs-orange);
+}
